@@ -12,5 +12,4 @@ var intervalID = setInterval(function(){
                              var randIndex = 0 + Math.floor(Math.random() * chords.length)
                              $("#frontCard").attr("src","./img/chord" + chords[randIndex] + "Text.svg");
                              $("#backCard").attr("src","./img/chord" + chords[randIndex] + "Shape.svg");
-                             console.log("Chord: " + chords[randIndex]);
 }, 10000 + Math.floor(Math.random() * 25000));
